@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6c525178-c4d9-4fbf-8d73-5478d02fc410" name="Changes" comment="commit first">
-      <change afterPath="$PROJECT_DIR$/my_env/islam_tashmatov_hw_5/balans.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/islam_tashmatov_hw_7/hw_7.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/islam_tashmatov_hw_8/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/islam_tashmatov_hw_5/hw_5.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_env/islam_tashmatov_hw_5/hw_5.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/islam_tashmatov_hw_5/setings.env" beforeDir="false" afterPath="$PROJECT_DIR$/my_env/islam_tashmatov_hw_5/setings.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/islam_tashmatov_hw_5/start.py" beforeDir="false" afterPath="$PROJECT_DIR$/my_env/islam_tashmatov_hw_5/start.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/islam_tashmatov_hw_7/homeWork" beforeDir="false" afterPath="$PROJECT_DIR$/islam_tashmatov_hw_7/homeWork" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,8 +44,10 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -60,7 +61,7 @@
       <recent name="$PROJECT_DIR$/islam_tashmatov_hw_5" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.start (1)">
+  <component name="RunManager" selected="Python.main (1)">
     <configuration name="hw_5 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="group_18_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -105,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hw_5" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="hw_7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="group_18_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -113,12 +114,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/islam_tashmatov_hw_5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/islam_tashmatov_hw_7" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/islam_tashmatov_hw_5/hw_5.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/islam_tashmatov_hw_7/hw_7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -127,7 +128,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="hw_6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="main (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="group_18_1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -135,12 +136,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/islam_tashmatov_hw_6" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/islam_tashmatov_hw_8" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/islam_tashmatov_hw_6/hw_6.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/islam_tashmatov_hw_8/main.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -217,11 +218,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.main (1)" />
+        <item itemvalue="Python.hw_7" />
         <item itemvalue="Python.start (1)" />
         <item itemvalue="Python.hw_5 (1)" />
         <item itemvalue="Python.start" />
-        <item itemvalue="Python.hw_5" />
-        <item itemvalue="Python.hw_6" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +247,7 @@
       <workItem from="1653646451101" duration="3960000" />
       <workItem from="1653902087951" duration="1995000" />
       <workItem from="1653904317279" duration="14000" />
-      <workItem from="1653904356351" duration="2854000" />
+      <workItem from="1653904356351" duration="4353000" />
     </task>
     <task id="LOCAL-00001" summary="commit first">
       <created>1653904016921</created>
@@ -269,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653906421766</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="commit first">
+      <created>1653907302373</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653907302373</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -305,6 +313,7 @@
     <SUITE FILE_PATH="coverage/group_18_1$islam_tashmatov_hw_2.coverage" NAME="islam_tashmatov_hw_2 Coverage Results" MODIFIED="1652871431485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/group_18_1$pygame_fil.coverage" NAME="pygame_fil Coverage Results" MODIFIED="1653309614922" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/group_18_1$start.coverage" NAME="start Coverage Results" MODIFIED="1653906100816" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/islam_tashmatov_hw_5" />
+    <SUITE FILE_PATH="coverage/group_18_1$hw_7.coverage" NAME="hw_7 Coverage Results" MODIFIED="1653907592793" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/islam_tashmatov_hw_7" />
     <SUITE FILE_PATH="coverage/group_18_1$__1.coverage" NAME="#_1 Coverage Results" MODIFIED="1653652057048" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/islam_tashmatov_hw_5" />
     <SUITE FILE_PATH="coverage/group_18_1$hw_5.coverage" NAME="hw_5 Coverage Results" MODIFIED="1653903891901" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/islam_tashmatov_hw_5" />
     <SUITE FILE_PATH="coverage/group_18_1$hw2_nurdin_kubatbekov_18_02.coverage" NAME="hw2_nurdin_kubatbekov_18-02 Coverage Results" MODIFIED="1652866916094" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -314,6 +323,7 @@
     <SUITE FILE_PATH="coverage/group_18_1$main.coverage" NAME="main Coverage Results" MODIFIED="1652700933180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/group_18_1$lessen2_3.coverage" NAME="lessen2_3 Coverage Results" MODIFIED="1652182556952" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/group_18_1$lessen_1.coverage" NAME="lessen_1 Coverage Results" MODIFIED="1653303802785" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/group_18_1$main__1_.coverage" NAME="main (1) Coverage Results" MODIFIED="1653908782282" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/islam_tashmatov_hw_8" />
     <SUITE FILE_PATH="coverage/group_18_1$islam_tashmatov_hw_3.coverage" NAME="islam_tashmatov_hw_3 Coverage Results" MODIFIED="1653045913906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/group_18_1$hw_5__1_.coverage" NAME="hw_5 (1) Coverage Results" MODIFIED="1653907172270" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/my_env/islam_tashmatov_hw_5" />
     <SUITE FILE_PATH="coverage/group_18_1$islam_tashmatov_hw_4.coverage" NAME="islam_tashmatov_hw_4 Coverage Results" MODIFIED="1653309138294" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
