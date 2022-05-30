@@ -28,7 +28,6 @@ class GameEntity:
         else:
             self.__hp = 0
 
-
     @property
     def damage(self):
         return self.__damage
@@ -105,48 +104,113 @@ class Berserk(Hero):
         self.hp += saved
         boss.hp -= saved
 
+
 class Thor(Hero):
-    def __init__(self, name, hp, damage, oglushka):
-        Hero.__init__(self, name, hp, damage, oglushka)
-        self.__oglushka = oglushka
+    def __init__(self, name, hp, damage, ):
+        Hero.__init__(self, name, hp, damage, "FREEZE BOSS")
 
     def apply_super_power(self, boss, heroes):
-        for boss in heroes:
-            if boss.hp > 1000 and self != boss:
-                boss.hp += self.__oglushka
+        shans = random.randint(1, 4)
+        if shans == 1:
+            if boss.hp > 0 and self.hp > 0:
+                boss.damage = 0
+                print('Босс оглушен на следуший раунд')
+        else:
+            boss.damage = 80
 
-        damage_range = [10, 15, 20]
-        oglushka_random = [1, 5, 10]
-        random.random(oglushka_random)
-        saved = random.choice(damage_range)
-        self.hp += saved
-        boss.hp -= saved
-# Golem, который имеет увеличенную жизнь но слабый удар.
-# Может принимать на себя 1/5 часть урона исходящего
-# от босса по другим игрокам
+
 class Golem(Hero):
     def __init__(self, name, hp, damage):
-        Hero.__init__(self, name, hp, damage)
+        Hero.__init__(self, name, hp, damage, "DEFEND")
 
-    def apply_super_power(self, boss, heroes,):
-        damage_random = [5, 8, 12]
-        saved = random.choice(damage_random)
-        self.hp += saved
-        boss.hp -= saved
+    def apply_super_power(self, boss, heroes, ):
+        for hero in heroes:
+            if hero.hp > 0 and self != hero:
+                defend_random = [10, 5, 8]
+                saved = random.choice(defend_random)
+                self.hp += saved
+
+
+class Witcher(Hero):
+    def __init__(self, name, hp, damage, dead):
+        Hero.__init__(self, name, hp, damage, dead)
+        self.__dead = dead
+
+    def apply_super_power(self, boss, heroes):
+        random_skill = [1, 2, 3, 4, 5]
+        for hero in heroes:
+            if random_skill == 3:
+                if hero.hp >= 0 and self != hero:
+                    self.__dead += hero.hp
+                print("Witcher is dead")
+
+
+class Avrora(Hero):
+    def __init__(self, name, hp, damage, inviz):
+        Hero.__init__(self, name, hp, damage, 'Invisibility')
+        self.__inviz = inviz
+
+    def apply_super_power(self, boss, heroes):
+        for hero in heroes:
+            if hero.hp < 160 and self != hero:
+                hero.hp += self.__inviz
+
+
+class Druid(Hero):
+
+    def __init__(self, name, hp, damage, call_of_fate):
+        Hero.__init__(self, name, hp, damage, 'CALL_OF_FATE')
+        self.__call_of_fate = call_of_fate
+
+    def apply_super_power(self, boss, heroes, call_of_fate=0):
+        randov_skill = [1, 2, 3, 4, 5]
+        for i in heroes:
+            if randov_skill == 2:
+                i.hp += 3
+                i.damage += 3
+                print("Guardian_angel")
+            elif randov_skill == 4:
+                if boss.hp <= 1000:
+                    boss.damage += 30
+                    print("Raven_Boss")
+                    break
+
+
+class AntMan(Hero):
+    def __init__(self, name, hp, damage, skill_1):
+        Hero.__init__(self, name, hp, damage, 'skill_1')
+        self.__skill_1 = skill_1
+
+    def apply_super_power(self, boss, heroes):
+        N = random.randint(1, 5)
+        skil = random.randint(1, 2)
+        if round_number == N:
+            if skil == 1:
+                self.hp += 100
+                self.damage += 10
+                print("увеличелся")
+            elif skil == 2:
+                self.hp -= 50
+                self.damage -= 5
+                print("Уменшился")
 
 
 def start():
-    boss = Boss(name="", hp=1500, damage=60)
+    boss = Boss(name="", hp=2000, damage=60)
 
     warrior = Warrior("Ahiles", 270, 15)
     medic_1 = Medic("Aibolit", 200, 5, 15)
     magic = Magic("Bairon", 280, 30)
     berserk = Berserk("Titan", 250, 10)
     medic_2 = Medic("Medbrat", 230, 10, 5)
-    thor = Thor('thor', 300, 30, 10)
-    golem = Golem('goroo', 400, 10)
+    thor = Thor('thor', 300, 30)
+    golem = Golem('goo', 500, 8)
+    witcher = Witcher('Andre', 250, 0, 240)
+    avrora = Avrora('Anjela', 220, 12, 2)
+    druid = Druid('Goro', 300, 15, 0)
+    antman = AntMan('Mayki', 250, 15, 0)
 
-    heroes = [warrior, medic_1, magic, berserk, medic_2, thor, golem]
+    heroes = [warrior, medic_1, magic, berserk, medic_2, thor, golem, witcher, avrora, druid, antman]
     print_stats(boss, heroes)
 
     while not is_game_finished(boss, heroes):
@@ -154,7 +218,6 @@ def start():
             print('Heroes won!!!')
             break
         play_round(boss, heroes)
-
 
 
 def print_stats(boss, heroes):
